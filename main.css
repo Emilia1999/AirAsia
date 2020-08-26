@@ -154,7 +154,7 @@ ul, li {
 
 
 .offers__list {
-    padding: 60px 0px;
+    margin-top: 100px;
 }
 
 .offers__title {
@@ -208,11 +208,11 @@ ul, li {
     vertical-align: top;
     font-size: 16px;
     color: #666666;
-    padding-right: 35px;
-    padding-top: 10px;
+    margin-right: 35px;
+    
 }
 
-.offers__terms-block :last-child {
+.offers__terms-block:last-child {
     margin-right:0;
 }
 
@@ -240,6 +240,7 @@ ul, li {
 
 .offers__terms {
     margin-bottom: 30px;
+    margin-top: 15px;
    
 }
 
@@ -259,8 +260,8 @@ ul, li {
     object-fit: cover;
 }
 
-.news__item :last-child {
-    margin-right: 0px;
+.news__item:last-child {
+    margin-right:0px;
 }
 
 .news__img{
