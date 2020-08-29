@@ -1,0 +1,80 @@
+
+.offers {
+    margin-bottom: 100px;
+}
+
+.offers__list {
+    margin-top: 100px;
+}
+
+.offers__title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+}
+
+.offers__ltem {
+    display: inline-block;
+    width: 362px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 27px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.offers__ltem:last-child {
+    margin-right: 0px;
+}
+
+.offers__icon {
+    background-color: white;
+    height: 144px;
+}
+
+.offers__information {
+    padding: 18px 24px;
+    margin-top: 10px ;
+}
+
+.offers__icon-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.offers__name-country {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.offers__terms {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.offers__terms-block {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    color: #666666;
+    margin-right: 35px;
+    
+}
+
+.offers__terms-block:last-child {
+    margin-right:0;
+}
+
+.offers__terms-img {
+    margin-bottom: -5px;
+    padding-right: 5px;
+}
+
+.offers__text { 
+    color: #000;
+    padding-bottom: 25px;
+}

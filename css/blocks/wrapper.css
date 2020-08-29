@@ -1,0 +1,17 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.main-page-wrapper {
+    background: url("/img/bg/hero.jpg") center top no-repeat, 
+    url("/img/bg/bottom-pic.jpg") right bottom no-repeat;
+}
+
+.wrapper__servises {
+    background: url('/img/bg/headline.jpg')center top no-repeat; 
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}

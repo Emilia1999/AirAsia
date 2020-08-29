@@ -1,0 +1,16 @@
+.preview {
+    width: 511px;
+    margin-bottom: 300px;
+}
+
+.preview__title {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.preview__text {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 70px; 
+}

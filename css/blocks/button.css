@@ -1,0 +1,23 @@
+button {
+    padding: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+    text-decoration: none; 
+}
+
+.button--white {
+    background: white;
+    color: #F5170E;
+    border: 1px solid #F5170E; 
+}
