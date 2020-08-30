@@ -21,7 +21,10 @@
     margin-right: 27px;
     background-color: white;
     padding-bottom: 20px;
+    /* flex: 1;
+    display: flex; */
 }
+
 
 .offers__ltem:last-child {
     margin-right: 0px;
