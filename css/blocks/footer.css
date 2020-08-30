@@ -1,6 +1,19 @@
 .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 152px;
     width: 1150px;
     position: relative;
     border-top: 1px solid #FFFFFF;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer__col-right {
+    align-items: flex-end;
 }

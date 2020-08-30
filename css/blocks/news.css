@@ -12,6 +12,9 @@
     
 }
 
+.single-news__content{
+    position: absolute;
+}
 .news__img {
     position: relative;
     border-radius: 5px;
