@@ -5,8 +5,8 @@
 }
 
 .main-page-wrapper {
-    background: url("../img/bg/hero.jpg") center top no-repeat, 
-    url("../img/bg/bottom-pic.jpg") right bottom no-repeat;
+    background: url("../../img/bg/hero.jpg") center top no-repeat, 
+    url("../../img/bg/bottom-pic.jpg") right bottom no-repeat;
 }
 
 .wrapper__servises {
