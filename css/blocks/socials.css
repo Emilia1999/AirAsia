@@ -5,6 +5,12 @@
     right: 300px;
 }
 
+.socials__services {
+    position: absolute;
+    
+    right: 300px;
+}
+
 .socials__item {
     display: inline-block;
     vertical-align: middle;

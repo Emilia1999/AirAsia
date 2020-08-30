@@ -1,18 +1,8 @@
-.container__partners {
-   display: flex;
-   align-items: center;
-   flex-flow: row;
-   flex-wrap: wrap;
-   width: 1350px;
-    margin-top: 30px;
-    
-}
 
 .partners {
     display: flex;
     background: #F4F5F5;
     justify-content: center;
-    /* align-items: center; */
     
 }
 
@@ -21,18 +11,25 @@
     font-size: 48px;  
     color: #1A1B1E;
     margin: 0px;
-    
- 
-    /* width: 254px;
-    height: 65px; */
-    background: #F4F5F5;
-  
 }
 
 .partners__item {
     padding: 50px;
+    object-fit: cover;
 }
 
 .partners__item-img {
-    object-fit: cover;
+    text-decoration: none;
+    display: flex;
+    width: 280px;
+    height: 90px;
+    /* object-fit: cover; */
+    align-items: center;
+    justify-content: center;
+}
+
+.partners__name {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1650px;
 }

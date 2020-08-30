@@ -19,6 +19,11 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+    max-height: 100%;
+}
+
 .container__title {
     margin: 0 auto;
     width: 1150px;
@@ -45,8 +50,21 @@ a {
     margin: 0 auto;
     width: 1150px;
     position: relative;
-
+    margin: 40px 0px;
+    
+    
 }
+
+.container__partners {
+    background: white;
+    color: #1A1B1E;
+    padding: 95px 0px;
+}
+
+.container__partners-grey {
+    background: #F4F5F5;
+}
+
 
 .container__service { 
     background: white;

@@ -6,6 +6,14 @@
     margin-bottom: 100px;
 }
 
+.paginator__servise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
 .paginator__list {
     display: flex;
     align-items: center;
@@ -35,7 +43,7 @@
     color: #F5170E;;
 }
 
-.paginator__item--activeservice .paginator__list-servise {
+.paginator__item--red .paginator__link {
     background: #F5170E;
     color: white;
 }
