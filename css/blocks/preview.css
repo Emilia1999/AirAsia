@@ -1,6 +1,7 @@
 .preview {
-    width: 511px;
+    width: 50%;
     margin-bottom: 300px;
+    margin-top: 105px;
 }
 
 .preview__title {

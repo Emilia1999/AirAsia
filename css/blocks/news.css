@@ -9,13 +9,25 @@
     margin-right: 25px;
     width: 540px;
     height: 384px;
-    display: inline-block;
-    vertical-align: top;
+    
+}
+
+.news__img {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover; 
+    width: 540px;
+    height: 384px;
+}
+
+.single-news {
     position: relative;
     border-radius: 5px;
     overflow: hidden;
     object-fit: cover;
 }
+
 
 .news__item:last-child {
     margin-right:0px;
@@ -57,6 +69,12 @@
     color: #fff;
 }
 
+.news__list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .news {
     margin-bottom: 55px;
+    
 }
