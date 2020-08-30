@@ -19,11 +19,28 @@ a {
     text-decoration: none;
 }
 
+.container__title {
+    margin: 0 auto;
+    width: 1150px;
+    min-height: 412px;
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+     justify-content: space-between;
+    position: relative; 
+}
+
 .container {
     margin: 0 auto;
     width: 1150px;
-    position: relative;
+    min-height: 412px;
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+     justify-content: space-between;
+    position: relative; 
 }
+
 .container__footer {
     margin: 0 auto;
     width: 1150px;

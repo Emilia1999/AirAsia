@@ -1,4 +1,12 @@
 .breadcrumbs{
+    display: flex;
+    align-items: center;
     color: #9A9A9A;
     padding-bottom: 30px;
+    text-decoration-line: underline;
+}
+
+.breadcrumbs__block--active {
+    text-decoration: none;
+    color: #9A9A9A;
 }

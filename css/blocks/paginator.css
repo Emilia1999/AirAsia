@@ -10,18 +10,20 @@
     display: flex;
     align-items: center;
 }
-.paginator-service {
-    text-align: center;
-    margin-bottom: 35px;
+
+.paginator__list-servise {
+    color: #000;
+    display: flex;
+    align-items: center;
 }
 
 .paginator__display {
     margin-right: 26px;
 }
 
-.paginator__display-servise {
-    color: black;
+.paginator__display-service {
     margin-right: 26px;
+    color: #000;
 }
 
 .paginator__item {
@@ -33,21 +35,9 @@
     color: #F5170E;;
 }
 
-.paginator__item--activeservice .paginator__link-service {
+.paginator__item--activeservice .paginator__list-servise {
     background: #F5170E;
     color: white;
-}
-
-.paginator__link-service {
-    color: #000;
-    display: block;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    text-decoration: none;
-    font-weight: bold;
-    line-height: 32px;
-    
 }
 
 .paginator__link {

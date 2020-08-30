@@ -10,7 +10,7 @@
 }
 
 .wrapper__servises {
-    background: url('../img/bg/headline.jpg')center top no-repeat; 
+    background: url('../../img/bg/headline.jpg')center top no-repeat; 
     height: 100%;
     width: 100%;
     overflow-x: hidden;
