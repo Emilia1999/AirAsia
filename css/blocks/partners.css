@@ -1,7 +1,8 @@
 
 .partners {
-    display: flex;
     background: #F4F5F5;
+    width: 1450px;
+    display: flex;
     justify-content: center;
     
 }
@@ -10,26 +11,27 @@
     font-weight: bold;
     font-size: 48px;  
     color: #1A1B1E;
+    padding-left: 45px;
     margin: 0px;
 }
 
 .partners__item {
-    padding: 50px;
+    padding: 20px;
     object-fit: cover;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .partners__item-img {
-    text-decoration: none;
-    display: flex;
-    width: 280px;
-    height: 90px;
-    /* object-fit: cover; */
-    align-items: center;
-    justify-content: center;
+    
 }
 
 .partners__name {
     display: flex;
     flex-wrap: wrap;
-    width: 1650px;
+    padding: 20px;
+   
 }
