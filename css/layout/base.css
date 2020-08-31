@@ -46,12 +46,17 @@ img {
     position: relative; 
 }
 
-.container__footer {
+
+
+.container__foother {
     margin: 0 auto;
     width: 1150px;
-    position: relative;
-    margin: 40px 0px;
     
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    justify-content: space-between;
+    position: relative; 
     
 }
 
