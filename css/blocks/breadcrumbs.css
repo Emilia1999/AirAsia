@@ -10,3 +10,12 @@
     text-decoration: none;
     color: #9A9A9A;
 }
+
+.breadcrumbs__block::after {
+    content: '/';
+    color: #9A9A9A;
+}
+
+.breadcrumbs__block:last-child:after {
+    display: none;
+}
