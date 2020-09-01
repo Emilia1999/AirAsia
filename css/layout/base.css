@@ -51,7 +51,6 @@ img {
 .container__foother {
     margin: 0 auto;
     width: 1150px;
-    
     display: flex;
     flex-direction: column;
     flex: 1; 
@@ -62,19 +61,21 @@ img {
 
 .container__partners {
     background: white;
-    color: #1A1B1E;
-    padding: 95px 0px;
+    padding: 95px 350px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    /* flex: 1;  */
-    justify-content: center;
-   
+    flex: 1; 
+    justify-content: space-between;
+    position: relative; 
+    
 
 }
 
 .container__partners-grey {
     background: #F4F5F5;
+    /* width: 1150px; */
+
 }
 
 

@@ -1,5 +1,7 @@
 
-
+.service {
+    padding-bottom: 50px;
+}
 .service__info {
     display: flex;
     background-color: white;
@@ -8,7 +10,12 @@
    padding-bottom: 50px;
 }
 
-
+.service__info-monkeys {
+    display: flex;
+    background-color: white;
+    color: #000;
+   justify-content: center;
+}
 
 .service__icon {
     height: 333px; 

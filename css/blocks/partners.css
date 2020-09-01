@@ -1,10 +1,6 @@
 
 .partners {
-    background: #F4F5F5;
-    width: 1450px;
-    display: flex;
-    justify-content: center;
-    
+    background: #F4F5F5; 
 }
 
 .partners__text {
