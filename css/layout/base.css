@@ -75,6 +75,7 @@ img {
 .container__partners-grey {
     background: #F4F5F5;
     /* width: 1150px; */
+    padding-top: 45px;
 
 }
 
@@ -82,6 +83,7 @@ img {
 .container__service { 
     background: white;
     padding-top: 100px;
+    
     margin: 0 auto;
     display: flex;
     flex-direction: column;
