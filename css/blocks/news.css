@@ -9,11 +9,15 @@
     margin-right: 25px;
     width: 540px;
     height: 384px;
+    position: relative;
     
 }
 
 .single-news__content{
     position: absolute;
+    bottom: 0;
+    min-height: 120px;
+    padding: 0 20px;
 }
 .news__img {
     position: relative;
