@@ -17,3 +17,10 @@
 .footer__col-right {
     align-items: flex-end;
 }
+
+.foother__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}

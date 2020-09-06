@@ -1,0 +1,7 @@
+.top-line {
+    min-height: 412px;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

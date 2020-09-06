@@ -1,0 +1,26 @@
+.tour {
+    margin: 0 auto;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    justify-content: center;
+    background: url(/img/decor/couple.png) right 20% bottom no-repeat, url(/img/bg/middleline.jpg) center no-repeat;
+}
+
+.container__tour {
+    margin: 0 auto;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.tour__text {
+    font-weight: bold;
+    font-size: 48px;
+    width: 595px;
+}

@@ -21,3 +21,22 @@ button {
     color: #F5170E;
     border: 1px solid #F5170E; 
 }
+
+.button--black {
+    background: black;
+    color: white;
+}
+
+.form__button {
+    margin-right: 10px;
+
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__button :last-child {
+    margin-right: 0px;
+}

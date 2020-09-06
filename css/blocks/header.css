@@ -11,5 +11,7 @@
 }
 
 .header__col-right {
+    display: flex;
+    align-items: center;
     justify-content: flex-end;
 }

@@ -18,8 +18,16 @@
 @import url('./blocks/service.css');
 @import url('./blocks/breadcrumbs.css');
 @import url('./blocks/partners.css');
+@import url('./blocks/ton-line.css');
+@import url('./blocks/reviews.css');
+@import url('./blocks/tour.css');
+@import url('./blocks/form.css');
 
 
 .main__service {
-    background: #fff;
+    background: #F4F5F5;
+}
+
+.main__reviews{
+    padding: 100px 0px 70px;
 }
