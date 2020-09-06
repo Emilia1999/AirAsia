@@ -1,0 +1,50 @@
+.welcome {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    justify-content: center;
+    background: url(/img/bg/screen.jpg) center no-repeat;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: zoom 1.5s ease-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.central__logo {
+    margin-bottom: 65px;
+}
+
+@keyframes zoom {
+    from {
+        transform:scale(.9);
+    }
+   
+    20% {
+        transform:scale(1.30);
+    }
+
+    40% {
+        transform:scale(1);
+    }
+
+    60% {
+        transform:scale(1.2);
+    }
+
+    100% {
+        transform:translateY(0);
+        opacity: 1;
+        transform: scele(1);
+    }
+
+}
+

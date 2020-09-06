@@ -40,10 +40,11 @@
 .review__user:after {
     content: url(/img/icons/socials/vk-blue.png);
     height: 30px;
+    margin-left: 10px;
 }
 
 .review__tag {
-    display: flex;
+    display: inline-block;
     align-items: flex-start;
 }
 
@@ -77,4 +78,8 @@
 .review__content-text {
     margin-bottom: 50px;
     color: #818181;
+}
+
+.review__info {
+    margin-left: 20px;
 }
