@@ -1,6 +1,7 @@
 .contacts {
-    
-  
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
     font-style: normal;
     text-align: right ;
     font-size: 26px;

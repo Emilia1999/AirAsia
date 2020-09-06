@@ -1,7 +1,6 @@
 
 .socials {
     position: absolute;
-    
     right: 300px;
 }
 
@@ -16,8 +15,12 @@
 }
 
 .socials__item {
-   
-    margin-right: 10px;
+    margin-left: 8px;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    border-radius: 50%;
+    padding: 20px;
 }
 
 .socials__item:last-child {
@@ -26,7 +29,39 @@
 
 .socials__link {
     display: block;
-    text-decoration: none;
+    position: absolute;
     width: 36px;
     height: 36px;
 }
+
+.socials__icon--tg:after {
+    background: url(./sprite.css)-122px -10px;
+}
+
+.socials__icon--tg:hover:after {
+    background-position:-122px -66px;
+} 
+
+.socials__icon--vk:after {
+    background: url(./sprite.css) -10px -122px;
+}
+
+.socials__icon--vk:hover:after {
+    background-position:-66px -122px;
+} 
+
+.socials__icon--fb:after {
+    background: url(./sprite.css) -10px -10px;
+}
+
+.socials__icon--fb:hover:after {
+    background-position:-66px -10px;
+} 
+
+.socials__icon--int:after {
+    background: url(./sprite.css) -10px -66px;
+}
+
+.socials__icon--int:hover:after {
+    background-position:-66px -66px;
+} 
