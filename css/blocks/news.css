@@ -9,6 +9,8 @@
     margin-right: 25px;
     width: 540px;
     height: 384px;
+    display: flex;
+    align-items: flex-end;
     
 }
 
