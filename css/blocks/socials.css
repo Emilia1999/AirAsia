@@ -19,7 +19,7 @@
     width: 36px;
     height: 36px;
     position: relative;
-    padding: 20px;
+
 }
 
 .socials__item:last-child {
@@ -28,11 +28,8 @@
 
 .socials__link:after {
     content: "";
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: block;
+   
     width: 36px;
     height: 36px;
 }
@@ -40,16 +37,12 @@
 
 .socials__link {
     display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 36px;
     height: 36px;
 }
 
 .socials__link_icon_tg:after {
-    background: url(/img/icons/css_sprites.png)-122px -10px;
+    background: url(../../img/icons/css_sprites.png)-122px -10px;
 }
 
 .socials__link_icon_tg:hover:after {
@@ -57,7 +50,7 @@
 } 
 
 .socials__link_icon_vk:after {
-    background: url(/img/icons/css_sprites.png) -10px -122px;
+    background: url(../../img/icons/css_sprites.png) -10px -122px;
 }
 
 .socials__link_icon_vk:hover:after {
@@ -65,7 +58,7 @@
 } 
 
 .socials__link_icon_fb:after {
-    background: url(/img/icons/css_sprites.png) -10px -10px;
+    background: url(../../img/icons/css_sprites.png) -10px -10px;
 }
 
 .socials__link_icon_fb:hover:after {
@@ -73,7 +66,7 @@
 } 
 
 .socials__link_icon_im:after {
-    background: url(/img/icons/css_sprites.png) -10px -66px;
+    background: url(../../img/icons/css_sprites.png) -10px -66px;
 }
 
 .socials__link_icon_im:hover:after {
