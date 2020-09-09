@@ -26,6 +26,18 @@
     margin-right: 0px;
 }
 
+.socials__link:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+}
+
+
 .socials__link {
     display: block;
     position: absolute;
@@ -34,7 +46,6 @@
     transform: translate(-50%, -50%);
     width: 36px;
     height: 36px;
-
 }
 
 .socials__link_icon_tg:after {
