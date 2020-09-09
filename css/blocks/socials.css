@@ -37,34 +37,34 @@
 
 }
 
-.socials__link_tg:after {
+.socials__link_icon_tg:after {
     background: url(/img/icons/css_sprites.png)-122px -10px;
 }
 
-.socials__link_tg:hover:after {
+.socials__link_icon_tg:hover:after {
     background-position:-122px -66px;
 } 
 
-.socials__link_vk:after {
+.socials__link_icon_vk:after {
     background: url(/img/icons/css_sprites.png) -10px -122px;
 }
 
-.socials__link_vk:hover:after {
+.socials__link_icon_vk:hover:after {
     background-position:-66px -122px;
 } 
 
-.socials__link_fb:after {
+.socials__link_icon_fb:after {
     background: url(/img/icons/css_sprites.png) -10px -10px;
 }
 
-.socials__link_fb:hover:after {
+.socials__link_icon_fb:hover:after {
     background-position:-66px -10px;
 } 
 
-.socials__link_int:after {
+.socials__link_icon_im:after {
     background: url(/img/icons/css_sprites.png) -10px -66px;
 }
 
-.socials__link_int:hover:after {
+.socials__link_icon_im:hover:after {
     background-position:-66px -66px;
 }  
