@@ -15,6 +15,10 @@
     color: #fff;
 }
 
+.offers__title-img {
+    display: inline-block;
+}
+
 .offers__ltem {
     
     width: 362px;
@@ -74,7 +78,7 @@
 }
 
 .offers__terms-img {
-    margin-bottom: -5px;
+    display: inline-block;
     padding-right: 5px;
 }
 

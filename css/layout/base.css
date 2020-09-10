@@ -38,7 +38,7 @@ img {
 .container {
     margin: 0 auto;
     width: 1150px;
-    min-height: 412px;
+    
     display: flex;
     flex-direction: column;
     flex: 1; 
@@ -118,8 +118,8 @@ img {
 
 .container__partners-grey {
     background: #F4F5F5;
-    /* width: 1150px; */
-    padding-top: 45px;
+    
+    padding: 100px 0px;
 
 }
 
@@ -127,7 +127,7 @@ img {
 .container__service { 
     background: white;
     padding-top: 100px;
-    
+    padding-bottom: 50px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

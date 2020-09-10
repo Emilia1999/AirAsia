@@ -51,9 +51,10 @@
 .tag {
     font-size: 13px;
     color: #333333;
-    padding: 8px 16px;
-    border-radius: 35px;
+    padding: 5px 18px;
+    border-radius: 50px;
     background: #E7E7E7;
+    border-radius: 50px;
 }
 
 .tag-bg-green {

@@ -23,10 +23,10 @@
 @import url('./blocks/tour.css');
 @import url('./blocks/form.css');
 @import url('./blocks/welcome.css');
-
+@import url('./blocks/dropdown.css');
 
 .main__service {
-    background: #F4F5F5;
+    background: white;
 }
 
 .main__reviews{

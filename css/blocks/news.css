@@ -11,16 +11,18 @@
     height: 384px;
     display: flex;
     align-items: flex-end;
-    
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .single-news__content{
     position: absolute;
+    padding: 0px 20px;
+    min-height: 120px;
 }
 .news__img {
-    position: relative;
-    border-radius: 5px;
-    overflow: hidden;
+ 
     object-fit: cover; 
     width: 540px;
     height: 384px;
