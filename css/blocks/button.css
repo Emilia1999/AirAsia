@@ -26,6 +26,11 @@ button {
     border: 1px solid #F5170E; 
 }
 
+.button__ind {
+    background-color: #F5170E;
+    color: white;
+}
+
 .button--white:hover {
     background: #F5170E;
     color: white;
