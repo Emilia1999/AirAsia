@@ -34,18 +34,30 @@
     color: #000;
 }
 
-.paginator__item {
+.paginator__item--main:hover {
+    display: flex;
+    text-align: center;
+    background: white;
+    color: red;
+    border-radius: 50%;
+}
+
+.paginator__item--main {
+    display: flex;
     text-align: center;
 }
 
-.paginator__item--active .paginator__link {
-    background: #FFFFFF;
-    color: #F5170E;;
+.paginator__item--white {
+    display: flex;
+    text-align: center;
 }
 
-.paginator__item--red .paginator__link {
-    background: #F5170E;
+.paginator__item--white:hover {
+    display: flex;
+    text-align: center;
+    background: red;
     color: white;
+    border-radius: 50%;
 }
 
 .paginator__link {
