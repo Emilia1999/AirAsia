@@ -8,28 +8,50 @@ button {
 .button {
     font-size: 14px;
     font-weight: bold;
-    color: white;
+    color: #F5170E;
     text-transform: uppercase;
-    background: #F5170E;
+    border-color: none;
     border-radius: 35px;
     padding: 18px 40px;
     text-decoration: none; 
 }
 
+.preview__button {
+    background: #F5170E;
+    color: white;
+}
+
 .button--white {
-    background: white;
-    color: #F5170E;
+    background-color: white;
+    border: 1px solid #F5170E; 
+}
+
+.button--white:hover {
+    background: #F5170E;
+    color: white;
     border: 1px solid #F5170E; 
 }
 
 .button--black {
     background: black;
     color: white;
+    border-color: none;
+    margin-right: 20px;
+}
+
+.button--black:hover {
+    background-color: #8e8e8e;
 }
 
 .form__button {
     margin-right: 10px;
+    border: 1px solid #F5170E; 
+    background: white;
+}
 
+.form__button:hover {
+    color: white;
+    background-color: #F5170E;;
 }
 
 .form__buttons {
