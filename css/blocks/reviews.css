@@ -29,6 +29,11 @@
     border-radius: 50%;
 }
 
+.review__user--active {
+    color:  #2E77A4;
+    text-decoration-line: underline;
+}
+
 .review__user {
     display: flex;
     align-items: center;

@@ -22,6 +22,10 @@
 
 }
 
+.socials__item:first-child {
+    margin-left: 0px;
+}
+
 .socials__item:last-child {
     margin-right: 0px;
 }

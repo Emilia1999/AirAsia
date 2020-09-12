@@ -22,6 +22,13 @@
     right: 0px;
     line-height: 20px;
     border-radius: 4px;
+    /* border: 10px solid transparent; 
+    content: "";
+    border: 10px solid transparent;
+    border-bottom-color: #d9dcdc;
+    top: -19px;
+    right: 20px;
+    border-top-width: 0px; */
 }
 
 .dropdown__menu:before{
@@ -32,6 +39,15 @@
     right: 0;
     top: -30px;
     position: absolute;
+   
+}
+
+.dropdown__menu--tr {
+    border: 20px solid transparent; 
+    opacity: 0.8;
+    border-bottom-color: #EDEDED;
+    
+    
 }
 
 .dropdown__link {
