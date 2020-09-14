@@ -37,14 +37,6 @@
 
 }
 
-.dropdown__menu--tr:before {
-    border: 20px solid transparent; 
-    opacity: 0.8;
-    border-bottom-color: #EDEDED;
-    
-    
-}
-
 .dropdown__link {
     font-size: 13px;
     text-decoration: underline;
